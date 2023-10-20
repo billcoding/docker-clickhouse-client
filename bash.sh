@@ -1,0 +1,1 @@
+docker buildx build -t billcoding/clickhouse-client -f Dockerfile --platform "linux/amd64" --push .
